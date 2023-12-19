@@ -5,10 +5,10 @@
   |============================
 */
 @import url('./reset.css');
+@import url('./base.css');
 @import url('./header.css');
 @import url('./about_us.css');
 @import url('./advantages.css');
-@import url('./base.css');
 @import url('./footer.css');
 @import url('./hero.css');
 @import url('./our_yachts.css');
