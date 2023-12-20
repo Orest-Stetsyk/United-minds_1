@@ -1,6 +1,7 @@
 .container {
     max-width: 375px;
     min-width: 320px;
+<<<<<<< Updated upstream
     padding: 0 20px;
     margin: 0 auto;
 }
@@ -86,4 +87,25 @@
     display: flex;
     gap: 20px;
     flex-direction: column;
+=======
+    padding: 0 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cont-about-us {
+    background-color: #FBFBFB;
+    border-radius: 24px;
+}
+
+.about-us {
+    padding-bottom: 80px;
+    margin: 0 auto;
+
+}
+
+
+.cont-about-us {
+    
+>>>>>>> Stashed changes
 }
