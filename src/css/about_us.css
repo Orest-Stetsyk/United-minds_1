@@ -1,4 +1,4 @@
-.container {
+.container-about {
     max-width: 375px;
     min-width: 320px;
     padding: 0 20px;
@@ -11,7 +11,7 @@
         padding-bottom: 75px;
     }
 
-    .container {
+    .container-about {
         max-width: 768px;
         padding: 0 32px;
         margin: 0 auto;
@@ -24,7 +24,7 @@
         padding-bottom: 75px;
     }
 
-    .container {
+    .container-about {
         max-width: 1280px;
         padding: 0 50px;
         margin: 0 auto;
@@ -37,7 +37,7 @@
         padding-bottom: 75px;
     }
 
-    .container {
+    .container-about {
         max-width: 1280px;
         padding: 0 50px;
         margin: 0 auto;
