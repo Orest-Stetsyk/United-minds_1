@@ -18,7 +18,7 @@
     }
 }
 
-@media screen and (min-width: 11280px) {
+@media screen and (min-width: 1280px) {
     .section {
         padding-top: 75px;
         padding-bottom: 75px;
@@ -38,7 +38,7 @@
     }
 
     .container-about {
-        max-width: 1280px;
+        max-width: 1440px;
         padding: 0 50px;
         margin: 0 auto;
     }
