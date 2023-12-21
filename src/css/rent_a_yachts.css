@@ -1,6 +1,7 @@
 .section-four .container {
     display: flex;
     flex-direction: column-reverse;
+    padding: 40px 0;
 }
 
 .rent-a-yacht-title {
@@ -93,6 +94,9 @@
 @media screen and (min-width: 768px) {
 
 
+    .section-four {
+        padding: 75px 0;
+    }
 
     .rent-a-yacht-title {
         font-size: 48px;
@@ -122,6 +126,10 @@
         display: flex;
         flex-direction: row;
         gap: 50px;
+    }
+
+    .section-four {
+        padding: 76px;
     }
 
     .rent-a-yacht-button {
