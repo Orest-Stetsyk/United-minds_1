@@ -23,11 +23,10 @@ body {
 
 .container {
     max-width: 375px;
-    padding: 0 20px;
     margin: 0 auto;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1157px) {
+@media screen and (min-width: 768px) and (max-width: 1280px) {
     .section {
         padding-top: 75px;
         padding-bottom: 75px;
@@ -35,12 +34,11 @@ body {
 
     .container {
         max-width: 768px;
-        padding: 0 32px;
         margin: 0 auto;
     }
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1280px) {
     .section {
         padding-top: 75px;
         padding-bottom: 75px;
@@ -48,7 +46,6 @@ body {
 
     .container {
         max-width: 1280px;
-        padding: 0 50px;
         margin: 0 auto;
     }
 }
