@@ -26,7 +26,7 @@ body {
     margin: 0 auto;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
     .section {
         padding-top: 75px;
         padding-bottom: 75px;
@@ -38,7 +38,7 @@ body {
     }
 }
 
-@media screen and (min-width: 1279px) {
+@media screen and (min-width: 1280px) {
     .section {
         padding-top: 75px;
         padding-bottom: 75px;
@@ -50,7 +50,7 @@ body {
     }
 }
 
-@media screen and (min-width: 1439px) {
+@media screen and (min-width: 1440px) {
 
     .container {
         min-width: 1340px;
