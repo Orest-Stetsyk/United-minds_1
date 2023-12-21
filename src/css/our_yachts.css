@@ -1,0 +1,97 @@
+/*======MOBILE OUR TEAM======*/
+.iteam-two {
+    display: none;
+}
+.iteam-three {
+    display: none;
+}
+.yacht-title2 {
+    max-width: 319px;
+    margin-bottom: 40px;
+    color: #FBFBFB;
+    text-align: center;
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -0.02em;
+}
+.our-yacht {
+    display: flex;
+    gap: 32px;
+}
+
+.our-yacht-iteam {
+    background-color: #FBFBFB;
+    width: 334px;
+    height: 478px;
+    border-radius: 24px;
+    flex-shrink: 0;
+    padding: 16px 16px 32px 16px;
+    
+}
+.imeges-yacht {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 32px;
+    border-radius: 24px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray -56.028px -2px / 144.72% 102.5% no-repeat;
+}
+.general-name-yachts {
+    display: grid;
+    max-width: 272px;
+    grid-template-columns: repeat(2, 50px 95px);
+    grid-column-gap: 125px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgba(4, 3, 6, 0.10);
+    margin-left: auto;
+    margin-right: auto;
+}
+.name-yacht {
+    color: #1B414B;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 118%;
+    letter-spacing: -0.045em;
+    text-transform: uppercase;
+    
+}
+.about-our-yacht {
+    color: #040306;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+}
+.description {
+    display: grid;
+    max-width: 272px;
+    grid-template-columns: 62px 94px;
+    grid-column-gap: 114px;
+    grid-row-gap: 6px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 16px;
+}
+.one-column {
+    color: #040306;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 118%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.two-column {
+    color: #040306;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 118%;
+    letter-spacing: 0.03em;
+}
