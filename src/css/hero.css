@@ -1,0 +1,181 @@
+/* ============== HERO MOB ============== */
+
+.size-section {
+    background-image:
+        url(../img/background-mob@1x.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 375px;
+}
+
+@media screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx),
+screen and (min-device-pixel-ratio: 2) {
+    .size-section {
+        background-image:
+            url(../img/background-mob@1x.jpg);
+    }
+
+}
+
+.hero-title {
+    color: #FBFBFB;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    max-width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 198px;
+    padding-bottom: 24px;
+}
+
+.hero-content {
+    color: rgba(251, 251, 251, 0.70);
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.17;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 335px;
+    padding-bottom: 38px;
+}
+
+.hero-link {
+    display: block;
+    background: #1B414B;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    color: #FBFBFB;
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: auto;
+    width: 141px;
+    height: 46px;
+    border: none;
+    border-radius: 15px;
+    padding: 14px 32px;
+}
+
+@media screen and (max-width: 767px) {
+    .hero-link {
+        margin-bottom: 243px;
+    }
+
+}
+
+/* ============== /HERO MOB ============== */
+
+/* ============== HERO TABLET ============== */
+@media screen and (min-width: 768px) {
+
+    .size-section {
+        background-image:
+            url(../img/background-tablet@1x.jpg);
+    }
+
+    @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+        .size-section {
+            background-image:
+                url(../img/background-tablet@2x.jpg);
+        }
+    }
+
+    .size-section {
+        padding-top: 200px;
+        padding-bottom: 215px;
+        max-width: 768px;
+    }
+
+    .hero-title {
+        font-size: 70px;
+        font-weight: 500;
+        line-height: 70px;
+        letter-spacing: -0.02em;
+        max-width: 704px;
+    }
+
+    .hero-content {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1.4;
+        width: 597px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 48px;
+        max-width: 597px;
+    }
+
+    .hero-link {
+        padding: 16px 40px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.1;
+        width: 179px;
+        height: 52px;
+    }
+}
+
+/* ============== /HERO TABLET ============== */
+
+/* ============== HERO DESCTOP ============== */
+
+@media screen and (min-width: 1280px) {
+
+    .size-section {
+        background-image:
+            url(../img/background-desctop1280@1x.jpg);
+    }
+
+    @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+        .size-section {
+            background-image:
+                url(../img/background-desctop1280@2x.jpg);
+        }
+    }
+
+    .size-section {
+        padding-top: 155px;
+        padding-bottom: 180px;
+        max-width: 1280px;
+    }
+
+    .hero-title {
+        font-size: 80px;
+        line-height: 80px;
+        letter-spacing: -0.02em;
+        max-width: 1001px;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+    .size-section {
+        background-image:
+            url(../img/background-desctop1440@1x.jpg);
+    }
+
+    @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+        .size-section {
+            background-image:
+                url(../img/background-desctop1440@2x.jpg);
+        }
+    }
+
+}
+
+/* ============== /HERO DESCTOP ============== */
