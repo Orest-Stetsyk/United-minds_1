@@ -22,30 +22,38 @@ body {
 }
 
 .container {
-    max-width: 375px;
+    max-width: 335px;
     margin: 0 auto;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1280px) {
+@media screen and (min-width: 767px) {
     .section {
         padding-top: 75px;
         padding-bottom: 75px;
     }
 
     .container {
-        max-width: 768px;
+        min-width: 704px;
         margin: 0 auto;
     }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1279px) {
     .section {
         padding-top: 75px;
         padding-bottom: 75px;
     }
 
     .container {
-        max-width: 1280px;
+        min-width: 1180px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1439px) {
+
+    .container {
+        min-width: 1340px;
         margin: 0 auto;
     }
 }
