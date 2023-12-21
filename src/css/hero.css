@@ -1,0 +1,179 @@
+/* ============== MOTTO ============== */
+
+.size-section {
+    padding-top: 198px;
+    padding-bottom: 243px;
+    background: #2E2F42;
+    background-image: url(../img/background-mob@1x.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 375px;
+    height: 812px;
+
+}
+
+@media screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx),
+screen and (min-device-pixel-ratio: 2) {
+    .size-section {
+        background-image: url(../img/background-mob@2x.jpg);
+    }
+
+}
+
+.hero-title {
+    color: #FBFBFB;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    max-width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+}
+
+.hero-content {
+    color: rgba(251, 251, 251, 0.70);
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.17;
+    padding-bottom: 38px;
+}
+
+.button-link {
+    display: block;
+    font-family: Inter;
+    padding: 14px 32px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: #FBFBFB;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background: #1B414B;
+    margin-left: auto;
+    margin-right: auto;
+    width: 141px;
+    height: 46px;
+    border: none;
+    border-radius: 15px;
+}
+
+/* ============== /MOTTO ============== */
+
+/* ============== MOTTO TABLET ============== */
+@media screen and (min-width: 768px) {
+
+    .size-section {
+        background-image:
+            url(../img/background-tablet@1x.jpg);
+    }
+
+    @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+        .size-section {
+            background-image:
+                url(../img/background-tablet@2x.jpg);
+        }
+    }
+
+    .size-section {
+        padding-top: 200px;
+        padding-bottom: 215px;
+        max-width: 768px;
+        height: 962px;
+    }
+
+    .hero-title {
+        font-size: 70px;
+        font-weight: 500;
+        line-height: 70px;
+        letter-spacing: -0.02em;
+        max-width: 704px;
+    }
+
+    .hero-content {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 1.4;
+        width: 597px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 48px;
+    }
+
+    .button-link {
+        padding: 16px 40px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.1;
+        width: 179px;
+        height: 52px;
+    }
+}
+
+/* ============== /MOTTO TABLET ============== */
+
+/* ============== MOTTO DESCTOP ============== */
+
+@media screen and (min-width: 1280px) {
+
+    .size-section {
+        background-image:
+            url(../img/background-desctop1280@1x.jpg);
+    }
+
+    @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+        .size-section {
+            background-image:
+                url(../img/background-desctop1280@2x.jpg);
+        }
+    }
+
+    .size-section {
+        padding-top: 155px;
+        padding-bottom: 180px;
+        max-width: 1280px;
+        height: 800px;
+    }
+
+    .hero-title {
+        font-size: 80px;
+        line-height: 80px;
+        letter-spacing: -0.02em;
+        max-width: 1001px;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+    .size-section {
+        background-image:
+            url(../img/background-desctop1440@1x.jpg);
+    }
+
+    @media screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx),
+    screen and (min-device-pixel-ratio: 2) {
+        .size-section {
+            background-image:
+                url(../img/background-desctop1440@2x.jpg);
+        }
+    }
+
+}
+
+/* ============== /MOTTO DESCTOP ============== */
