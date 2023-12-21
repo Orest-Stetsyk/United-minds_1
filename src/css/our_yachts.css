@@ -1,4 +1,4 @@
-/*======MOBILE OUR TEAM======*/
+/*======MOBILE OUR YAHTS======*/
 .iteam-two {
     display: none;
 }
@@ -41,8 +41,8 @@
 .general-name-yachts {
     display: grid;
     max-width: 272px;
-    grid-template-columns: repeat(2, 50px 95px);
-    grid-column-gap: 125px;
+    grid-template-columns: 50px 95px;
+    justify-content: space-between;
     padding-bottom: 16px;
     border-bottom: 1px solid rgba(4, 3, 6, 0.10);
     margin-left: auto;
@@ -66,13 +66,13 @@
     line-height: 14px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    
+    opacity: 0.4;
 }
 .description {
     display: grid;
     max-width: 272px;
     grid-template-columns: 62px 94px;
-    grid-column-gap: 114px;
+    justify-content: space-between;
     grid-row-gap: 6px;
     margin-right: auto;
     margin-left: auto;
@@ -86,6 +86,7 @@
     line-height: 118%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    opacity: 0.4;
 }
 .two-column {
     color: #040306;
@@ -95,3 +96,28 @@
     line-height: 118%;
     letter-spacing: 0.03em;
 }
+.nav-rent-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.navigation-rent {
+    display: inline-flex;
+    padding: 14px 32px;
+    align-items: flex-start;
+    gap: 10px;
+    min-width: 141px;
+    border-radius: 15px;
+    border: 1px solid rgba(251, 251, 251, 0.35);
+    color: #FBFBFB;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+    margin-top: 40px;
+}
+/*=====/MOBILE OUR YACHTS======*/
+
+/*=====TABLET OUR YACHTS======*/
