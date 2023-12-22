@@ -1,0 +1,35 @@
+<section class="section-four">
+    <div class="container">
+        <picture>
+            <source srcset="./img/1440/rent_desk1440@1x.webp 1x, ./img/1440/rent_desk1440@2x.webp 2x"
+                media="(min-width: 1440px)" />
+
+            <source srcset="./img/1280/rent_desk1280@1x.webp, ./img/1280/rent_desk1280@2x.webp 2x"
+                media="(min-width: 1280px)" />
+
+            <source srcset="./img/tablet/rent_tab@1x.webp 1x, ./img/tablet/rent_tab@2x.webp 2x"
+                media="(min-width: 768px)" />
+
+            <source srcset="./img/mobile/rent_mob@1x.webp 1x, ./img/mobile/rent_mob@2x.webp 2x"
+                media="(max-width: 767px)" />
+
+            <img class="rent-a-yacht-img" src="./img/mobile/rent_mob@1x.webp" alt="yacht">
+        </picture>
+
+        <div class="container-text-and-form">
+            <h2 id="Rent a yacht" class="rent-a-yacht-title">Rent a yacht now</h2>
+
+            <form class="rent-a-yacht-form">
+                <input class="rent-a-yacht-input" type="text" id="user-name" name="user-name" placeholder="Full Name"
+                    pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+" required>
+                <input class="rent-a-yacht-input" type="email" id="email" name="email" placeholder="Email" required>
+                <input class="rent-a-yacht-input" type="tel" id="phone" name="phone" placeholder="Phone number"
+                    title="xxx-xxx-xx-xx" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" required>
+                <textarea class="rent-a-yacht-textarea" name="comment" id="comment" cols="30" rows="10"
+                    placeholder="Comment" required></textarea>
+                <button class="rent-a-yacht-button" type="submit">Send</button>
+            </form>
+
+        </div>
+    </div>
+</section>

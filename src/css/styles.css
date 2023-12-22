@@ -14,6 +14,7 @@
 @import url('./our_yachts.css');
 @import url('./rent_a_yachts.css');
 @import url('./reviews.css');
+@import url('./menu.css');
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
