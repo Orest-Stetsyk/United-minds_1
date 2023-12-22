@@ -4,97 +4,7 @@ ol {
     list-style-type: none; 
 }
 
-.block {
-    display: flex;
-    flex-direction: row;
-    Justify-content: space-evenly;
-    align-items: flex-start;
-    gap: 32px;
-    position: relative;
-
-
-  }
-
-.place {
-
-    background: #1B414B;
-    width: 768px;
-    height: 424px;
-    border-radius: 24px;
-    align-items: center;
-    display: grid;
-    place-items: center;
-    
-    
-
-}
- 
-.picture-yacht {
-    
-    width: 540px;
-    height: 424px;
-    background: url(), lightgray -104.056px 0px / 149.465% 107.075% no-repeat;
-    
- 
-}
-
-.numbers {
-    color: #FBFBFB;
-    font-family: Inter;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 100%; 
-    letter-spacing: -1.6px; 
-}
-
-
- .content-text {
-    color: #FBFBFB;
-    font-family: Inter;
-    font-size: 13px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 115%; 
-    letter-spacing: -0.26px;
-}
-
-.hr {
-    border-radius: 18px;
-    width: 318px;
-    height: 2px;
-    flex-shrink: 0; 
-    border-radius: 18px;
-    background: rgba(251, 251, 251, 0.10);
-}
-
-.first  {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 32px;
-    margin: 50px ;
-
-}
-
-/* 1280 */
-@media screen and (max-width: 1280px) {
-        .place {
-            width: 716px;
-            height: 424px;
-            flex-shrink: 0;
-        }
-        .picture-yacht {
-            width: 432px;
-             height: 424px;
-            flex-shrink: 0;
-            background: url(), lightgray -182.944px -7px / 190.946% 109.434% no-repeat;
-
-        }
-    }
-
-
-    /* mob */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .block {
         display: block;
         flex-direction: row;
@@ -131,7 +41,92 @@ ol {
     }
 }
 
-/* */
+.block {
+    display: flex;
+    flex-direction: row;
+    Justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 32px;
+    position: relative;
+
+
+}
+
+.place {
+
+    background: #1B414B;
+    width: 768px;
+    height: 424px;
+    border-radius: 24px;
+    align-items: center;
+    display: grid;
+    place-items: center;
+    
+}
+ 
+.picture-yacht {
+    
+    width: 540px;
+    height: 424px;
+    background: url(), lightgray -104.056px 0px / 149.465% 107.075% no-repeat;
+    
+ 
+}
+
+.numbers {
+    color: #FBFBFB;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; 
+    letter-spacing: -1.6px; 
+}
+
+ .content-text {
+    color: #FBFBFB;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 115%; 
+    letter-spacing: -0.26px;
+}
+
+.hr {
+    border-radius: 18px;
+    width: 318px;
+    height: 2px;
+    flex-shrink: 0; 
+    border-radius: 18px;
+    background: rgba(251, 251, 251, 0.10);
+}
+
+.first  {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    margin: 50px ;
+
+}
+
+/* 1280 */
+@media screen and (max-width: 1280px) {
+    .place {
+        width: 716px;
+        height: 424px;
+        flex-shrink: 0;
+    }
+    .picture-yacht {
+        width: 432px;
+         height: 424px;
+        flex-shrink: 0;
+        background: url(.img\1280\image3.jpg), lightgray -182.944px -7px / 190.946% 109.434% no-repeat;
+
+    }
+}
+
+
 @media screen and( max-width: 1084 ) {
 
     .place{
@@ -152,6 +147,54 @@ ol {
 
 }
     
+
+@media screen and (max-width: 768px) {
+    .block {
+        display: block;
+        flex-direction: row;
+        Justify-content: space-evenly;
+        align-items: flex-start;
+        position: relative;
+        
+    
+    
+      }
+
+     .picture-yacht{
+        margin-top: 20px;
+        width: 335px;
+    height: 424px;
+    flex-shrink: 0;
+    }
+
+    .place { 
+    display: flex;
+    width: 335px;
+    height: 642px;
+    padding: 468px 20px 80px 20px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    flex-shrink: 0;
+
+    }
+
+    .first{
+   display: inline-block;
+   width: auto;
+    }
+}
+
+
+
+
+
+
+    
+
+
+
+
 
 
 
