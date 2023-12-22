@@ -10,8 +10,8 @@
     border-radius: 8px;
     border: 1px solid #FBFBFB;
     background: #FBFBFB;
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 @media screen and (max-width: 767px) {
