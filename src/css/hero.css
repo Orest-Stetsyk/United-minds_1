@@ -1,4 +1,7 @@
 /* ============== HERO MOB ============== */
+.size-section {
+    margin: 0 auto;
+}
 
 .hero-title {
     color: #FBFBFB;
@@ -10,7 +13,6 @@
     max-width: 335px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 198px;
     padding-bottom: 24px;
 }
 
@@ -45,7 +47,7 @@
 
 @media screen and (max-width: 767px) {
     .hero-link {
-        margin-bottom: 243px;
+        margin-bottom: 283px;
     }
 
 }
@@ -57,7 +59,7 @@
 
     .size-section {
         padding-top: 200px;
-        padding-bottom: 215px;
+        padding-bottom: 265px;
         max-width: 768px;
     }
 
@@ -98,7 +100,7 @@
 
     .size-section {
         padding-top: 155px;
-        padding-bottom: 180px;
+        padding-bottom: 230px;
         max-width: 1280px;
     }
 
