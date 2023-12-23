@@ -81,12 +81,11 @@
     line-height: 1.28;
     letter-spacing: -0.02em;
     border: 0;
-
+    margin-top: 40px;
 }
 
 .rent-a-yacht-img {
     border-radius: 24px;
-    margin-bottom: 80px;
 }
 
 
@@ -102,6 +101,7 @@
         font-size: 48px;
         line-height: 1;
         letter-spacing: -0.02em;
+        margin-bottom: 50px;
     }
 
     .container-text-and-form {
@@ -112,10 +112,20 @@
 
     .rent-a-yacht-form {
         max-width: 473px;
+        margin-bottom: 100px;
     }
 
     .rent-a-yacht-input {
         width: 473px;
+        padding: 18px 0 18px 18px;
+    }
+
+    .rent-a-yacht-textarea {
+        height: 116px;
+    }
+
+    .rent-a-yacht-button {
+        margin-top: 32px;
     }
 }
 
@@ -130,6 +140,10 @@
 
     .section-four {
         padding: 75px 0;
+    }
+
+    .rent-a-yacht-form {
+        margin-bottom: 0;
     }
 
     .rent-a-yacht-button {
