@@ -77,18 +77,11 @@ body {
 (min-device-pixel-ratio: 2) {
     .back-ground-img {
         background: linear-gradient(359deg, rgba(17, 19, 31, 0.80) 42.62%, rgba(17, 19, 31, 0.31) 84.12%, rgba(17, 19, 31, 0.00) 99.94%), url(../img/mobile/bg_mob@2x.webp), lightgray -363.632px -322.699px / 294.966% 170.401% no-repeat;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-    
-        margin-left: auto;
-        margin-right: auto;
+
     }
 }
 
-@media screen and (min-resolution: 192dpi) and (min-width: 768px),
-screen and (min-resolution: 2dppx) and (min-width: 768px),
-screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+@media screen and (min-width: 768px) {
     .back-ground-img {
         background: linear-gradient(359deg, rgba(17, 19, 31, 0.80) 42.62%, rgba(17, 19, 31, 0.31) 84.12%, rgba(17, 19, 31, 0.00) 99.94%), url(../img/tablet/bg_tablet@1x.webp), lightgray -363.632px -322.699px / 294.966% 170.401% no-repeat;
         background-repeat: no-repeat;
@@ -98,12 +91,18 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
         margin-left: auto;
         margin-right: auto;
     }
+
+    @media (min-resolution: 192dpi),
+    (min-resolution: 2dppx),
+    (min-device-pixel-ratio: 2) {
+        .back-ground-img {
+            background: linear-gradient(359deg, rgba(17, 19, 31, 0.80) 42.62%, rgba(17, 19, 31, 0.31) 84.12%, rgba(17, 19, 31, 0.00) 99.94%), url(../img/tablet/bg_tablet@2x.webp), lightgray -363.632px -322.699px / 294.966% 170.401% no-repeat;
+
+        }
+    }
 }
 
-
-@media screen and (min-resolution: 192dpi) and (min-width: 1280px),
-screen and (min-resolution: 2dppx) and (min-width: 1280px),
-screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
     .back-ground-img {
         background: linear-gradient(359deg, rgba(17, 19, 31, 0.80) 42.62%, rgba(17, 19, 31, 0.31) 84.12%, rgba(17, 19, 31, 0.00) 99.94%), url(../img/1280/bg_desctop_1280@1x.webp), lightgray -363.632px -322.699px / 294.966% 170.401% no-repeat;
         background-repeat: no-repeat;
@@ -113,12 +112,18 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
         margin-left: auto;
         margin-right: auto;
     }
+
+    @media (min-resolution: 192dpi),
+    (min-resolution: 2dppx),
+    (min-device-pixel-ratio: 2) {
+        .back-ground-img {
+            background: linear-gradient(359deg, rgba(17, 19, 31, 0.80) 42.62%, rgba(17, 19, 31, 0.31) 84.12%, rgba(17, 19, 31, 0.00) 99.94%), url(../img/1280/bg_desctop_1280@2x.webp), lightgray -363.632px -322.699px / 294.966% 170.401% no-repeat;
+
+        }
+    }
 }
 
-   
-@media screen and (min-resolution: 192dpi) and (min-width: 1440px),
-screen and (min-resolution: 2dppx) and (min-width: 1440px), 
-screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
     .back-ground-img {
         background: linear-gradient(359deg, rgba(17, 19, 31, 0.80) 42.62%, rgba(17, 19, 31, 0.31) 84.12%, rgba(17, 19, 31, 0.00) 99.94%), url(../img/1440/bg_desctop_1440@1x.webp), lightgray -363.632px -322.699px / 294.966% 170.401% no-repeat;
         background-repeat: no-repeat;
@@ -127,5 +132,14 @@ screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
 
         margin-left: auto;
         margin-right: auto;
+    }
+
+    @media (min-resolution: 192dpi),
+    (min-resolution: 2dppx),
+    (min-device-pixel-ratio: 2) {
+        .back-ground-img {
+            background: linear-gradient(359deg, rgba(17, 19, 31, 0.80) 42.62%, rgba(17, 19, 31, 0.31) 84.12%, rgba(17, 19, 31, 0.00) 99.94%), url(../img/1440/bg_desctop_1440@2x.webp), lightgray -363.632px -322.699px / 294.966% 170.401% no-repeat;
+
+        }
     }
 }
