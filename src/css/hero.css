@@ -46,8 +46,12 @@
 }
 
 @media screen and (max-width: 767px) {
-    .hero-link {
-        margin-bottom: 283px;
+    .size-section {
+        padding-bottom: 283px;
+    }
+
+    .hero-title {
+        margin-top: 198px;
     }
 
 }
