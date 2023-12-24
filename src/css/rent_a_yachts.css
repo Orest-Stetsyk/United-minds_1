@@ -1,9 +1,12 @@
 .section-four .container {
     display: flex;
     flex-direction: column-reverse;
-    padding: 40px 0;
+    
 }
 
+.section-four{
+    padding: 40px 0;
+}
 .rent-a-yacht-title {
     color: #FBFBFB;
     font-size: 28px;

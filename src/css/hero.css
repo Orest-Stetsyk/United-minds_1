@@ -47,7 +47,7 @@
 
 @media screen and (max-width: 767px) {
     .size-section {
-        padding-bottom: 283px;
+        padding-bottom: 302px;
     }
 
     .hero-title {
@@ -63,7 +63,7 @@
 
     .size-section {
         padding-top: 200px;
-        padding-bottom: 265px;
+        padding-bottom: 286px;
         max-width: 768px;
     }
 
@@ -104,7 +104,7 @@
 
     .size-section {
         padding-top: 155px;
-        padding-bottom: 230px;
+        padding-bottom: 215px;
         max-width: 1280px;
     }
 

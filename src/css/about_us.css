@@ -74,6 +74,7 @@
     overflow: hidden;
     border-radius: 24px;
     background-color: #FBFBFB;
+    
 }
 
 .txt-main {
@@ -180,6 +181,6 @@
     }
 }
 
-/* .img-about-us img {
+.img-about-us img {
     border-radius: 24px;
-} */
+}
