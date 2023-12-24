@@ -29,19 +29,31 @@
 }
 
 .mobile-menu-first-nav {
-    position: relative;
-    width: 335px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
     height: 42px;
     margin: 0 auto;
     border-radius: 8px;
     border: 1px solid #FBFBFB;
     background-color: #FBFBFB;
 }
+@media screen and (min-width: 320px) and (max-width: 334px) {
+    .mobile-menu-first-nav {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 335px){
+    .mobile-menu-first-nav {
+        width: 335px;
+    }
+}
 
 .mobile-menu-close-btn {
-    position: absolute;
+    /* position: absolute;
     top: 6px;
-    right: 19px;
+    right: 19px; */
     fill: #1B414B;
     border: none;
     stroke: #1B414B;
@@ -51,9 +63,9 @@
 }
 
 .mobile-menu-first-nav .logo {
-    position: absolute;
+    /* position: absolute;
     top: 11px;
-    left: 19px;
+    left: 19px; */
     fill: #1B414B;
     border: none;
     stroke: #1B414B;
