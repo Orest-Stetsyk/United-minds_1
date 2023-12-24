@@ -73,8 +73,7 @@
 .wrapper-about-us {
     overflow: hidden;
     border-radius: 24px;
-    background-color: #FBFBFB;
-    
+    background: linear-gradient(to bottom, white 50%, transparent 50%);
 }
 
 .txt-main {
