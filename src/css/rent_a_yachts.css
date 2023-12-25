@@ -1,7 +1,7 @@
 .section-four .container {
     display: flex;
     flex-direction: column-reverse;
-    padding: 40px 0;
+    padding: 40px 20px;
 }
 
 .rent-a-yacht-title {
@@ -18,11 +18,10 @@
     justify-content: center;
     align-items: flex-start;
 
-    gap: 18px;
+
     display: flex;
     flex-direction: column;
     max-width: 335px;
-    margin-bottom: 80px;
 }
 
 .rent-a-yacht-input {
@@ -37,6 +36,8 @@
     font-weight: 400;
     line-height: 1.28;
     outline: transparent;
+    margin-bottom: 18px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -66,6 +67,13 @@
     font-weight: 400;
     line-height: 1.28;
     outline: transparent;
+    margin-bottom: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.rent-a-yacht-input:focus,
+.rent-a-yacht-textarea:focus {
+    border: 1px solid rgba(251, 251, 251, 0.50);
 }
 
 .rent-a-yacht-button {
@@ -81,19 +89,32 @@
     line-height: 1.28;
     letter-spacing: -0.02em;
     border: 0;
-    margin-top: 40px;
+
 }
 
 .rent-a-yacht-img {
     border-radius: 24px;
 }
 
+.rent-a-yacht-button {
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
+.rent-a-yacht-button:hover,
+.rent-a-yacht-button:focus {
+    background-color: #FBFBFB;
+    color: #1B414B;
+    outline: transparent;
+}
+
+.container-text-and-form {
+    margin-bottom: 80px;
+}
 
 @media screen and (min-width: 768px) {
 
 
-    .section-four {
+    .section-four .container {
         padding: 75px 0;
     }
 
@@ -106,13 +127,14 @@
 
     .container-text-and-form {
         margin: 0 auto;
+        margin-bottom: 100px;
     }
 
 
 
     .rent-a-yacht-form {
         max-width: 473px;
-        margin-bottom: 100px;
+
     }
 
     .rent-a-yacht-input {
@@ -122,11 +144,10 @@
 
     .rent-a-yacht-textarea {
         height: 116px;
+        margin-bottom: 50px;
     }
 
-    .rent-a-yacht-button {
-        margin-top: 32px;
-    }
+
 }
 
 @media screen and (min-width: 1280px) {
@@ -142,16 +163,15 @@
         padding: 75px 0;
     }
 
+    .container-text-and-form {
+        margin: 0;
+    }
+
     .rent-a-yacht-form {
         margin-bottom: 0;
     }
 
-    .rent-a-yacht-button {
-        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
-    .rent-a-yacht-button:hover,
-    .rent-a-yacht-button:focus {
+    .rent-a-yacht-button:hover {
         background-color: #FBFBFB;
         color: #1B414B;
         outline: transparent;
