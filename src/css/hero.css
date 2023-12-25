@@ -39,7 +39,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 141px;
-    height: 46px;
+    min-height: 46px;
     border: none;
     border-radius: 15px;
     padding: 14px 32px;
