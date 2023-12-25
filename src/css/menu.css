@@ -40,12 +40,12 @@ height: 100%;
     background-color: #FBFBFB;
     margin-bottom: auto;
 }
-@media screen and (min-width: 320px) and (max-width: 334px) {
+@media screen and (min-width: 320px) and (max-width: 374px) {
     .mobile-menu-first-nav {
-        width: 100%;
+        width: 89.3%;
     }
 }
-@media screen and (min-width: 335px){
+@media screen and (min-width: 375px){
     .mobile-menu-first-nav {
         width: 335px;
     }
@@ -123,14 +123,7 @@ height: 100%;
     background-color: #1B414B;
 }
 
-.social-media-container-mobile {
 
-    /* position: fixed;
-    bottom: 40px;
-    left: 50%;
-    transform: translateX(-50%); */
-
-}
 
 .social-media-mobile-list {
     display: flex;
