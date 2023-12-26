@@ -2,8 +2,9 @@
 ol {
     list-style-type: none;
 }
-.advantages .container{
-    padding-top:40px;
+
+.advantages .container {
+    padding-top: 40px;
     padding-bottom: 40px;
 }
 
@@ -11,7 +12,7 @@ ol {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    
+
 }
 
 .place {
@@ -41,9 +42,9 @@ ol {
     /* 100% */
     letter-spacing: -1.4px;
 
-   padding-bottom: 18px;
+    padding-bottom: 18px;
     border-bottom: 2px solid rgba(251, 251, 251, 0.10);
-        margin: 0;
+    margin: 0;
 }
 
 .content-text {
@@ -61,7 +62,7 @@ ol {
 
 
 .list-items {
-    width:100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 18px;
@@ -83,7 +84,7 @@ ol {
         display: flex;
         flex-direction: column;
         gap: 32px;
-        
+
     }
 
     .place {
@@ -117,15 +118,16 @@ ol {
     }
 
     .picture-yacht picture {
-        min-width: none;
+
         width: 704px;
-        max-width: none;
+
     }
-    .advantages .container{
-        padding-top:75px;
+
+    .advantages .container {
+        padding-top: 75px;
         padding-bottom: 75px;
     }
-    
+
 }
 
 @media screen and (min-width: 1280px) {
@@ -133,7 +135,7 @@ ol {
         display: flex;
         flex-direction: row;
         gap: 32px;
-        
+
     }
 
     .place {
@@ -169,7 +171,7 @@ ol {
         display: flex;
         flex-direction: row;
         gap: 32px;
-        
+
     }
 
     .place {
