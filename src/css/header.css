@@ -1,5 +1,9 @@
 .page-header {
-    padding-top: 20px;
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20px;
 }
 
 .header-container {
@@ -48,7 +52,7 @@
 @media screen and (min-width: 768px) {
 
     .page-header {
-        padding-top: 32px;
+        top: 32px;
     }
 
     .menu-button {
